@@ -3,7 +3,7 @@ Conditional GAN
 Generative Adversarial Networks for anime generation.
 
 ![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/result.gif) <br />
-training result in 25 epoch for the following tags
+training results in 25 epoch for the following tags
 - blue hair blue eyes
 - blue hair green eyes
 - green hair red eyes
@@ -39,7 +39,7 @@ $ python3 main.py --prepro 0
 - use one hot encoding for condition tags
 
 ## Inference 
-This code provide automatically dump the results for the tags specified in MLDS_HW3_dataset/sample_testing_text.txt every <em>dump_every</em> batches to the test_img/ folder. <br />
+This code will automatically dump the results for the tags specified in MLDS_HW3_dataset/sample_testing_text.txt every <em>dump_every</em> batches to the test_img/ folder. <br />
 
 ## Testing tags format
 ```
