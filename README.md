@@ -21,7 +21,9 @@ scipy <br />
 [google drive link]()
 
 ## Usage 
-Download hw3 data from data link<br />
+1. Download hw3 data from data link, place the MLDS_HW3_dataset/ in the same directory and unzip the face.zip in MLDS_HW3_dataset/
+2. Replace the tags in MLDS_HW3_dataset/sample_testing_text.txt to the right format. 
+3. Start training !
 
 ## Train
 First time use, you need to do the preprocessing
@@ -33,7 +35,8 @@ If you already have done the preprocessing
 $ python3 main.py --prepro 0
 ```
 ## Model
-dcgan structure
+- dcgan structure
+- use one hot encoding for condition tags
 
 ## Inference 
 This code provide automatically dump the results for the tags specified in MLDS_HW3_dataset/sample_testing_text.txt every <em>dump_every</em> batches to the test_img/ folder. <br />
