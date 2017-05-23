@@ -38,7 +38,7 @@ $ python3 main.py --prepro 0
 - dcgan structure
 - use one hot encoding for condition tags
 
-## Inference 
+## Test 
 This code will automatically dump the results for the tags specified in MLDS_HW3_dataset/sample_testing_text.txt every <em>dump_every</em> batches to the test_img/ folder. <br />
 
 ## Testing tags format
