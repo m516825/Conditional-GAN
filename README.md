@@ -3,7 +3,7 @@ Conditional GAN
 Conditional Generative Adversarial Networks for anime generation (C-AnimeGAN).
 
 ![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/result.gif) <br />
-training results in 25 epoch for the following tags
+Training results dump every 500 min-batch in 25 epoch(26000th min-batch) for the following tags
 - blue hair blue eyes
 - blue hair green eyes
 - green hair red eyes
