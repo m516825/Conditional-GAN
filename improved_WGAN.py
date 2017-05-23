@@ -3,7 +3,7 @@ import tensorflow.contrib as tc
 import numpy as np
 import time
 import os
-from model import Generator, Discriminator, RNN_encoder
+from model import Generator, Discriminator
 import progressbar as pb
 import data_utils
 
@@ -34,16 +34,6 @@ class Improved_WGAN(object):
 			os.makedirs(self.checkpoint_dir)
 
 	def build_model(self):
-		self.encoder = RNN_encoder(
-						max_seq_length=self.data.tags_idx.shape[1],
-						a_tag_length=self.data.a_tags_idx.shape[1], 
-						vocab_size=self.vocab_size, 
-						embedding_size=self.FLAGS.embedding_dim, 
-						hidden_size=self.FLAGS.hidden)
-		self.r_optimizer = tf.train.AdamOptimizer(self.FLAGS.lr, beta1=0.5)
-		r_grads, _ = tf.clip_by_global_norm(tf.gradients(self.encoder.loss, self.encoder.vars), 5)
-		self.r_updates = self.r_optimizer.apply_gradients(
-					zip(r_grads, self.encoder.vars))
 
 		self.g_net = Generator( 
 						max_seq_length=self.data.tags_idx.shape[1], 

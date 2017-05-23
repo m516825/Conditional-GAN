@@ -51,6 +51,16 @@ This code will automatically dump the results for the tags specified in MLDS_HW3
 .
 .
 ```
+- Possible colors for eyes
+```
+['<UNK>', 'yellow', 'gray', 'blue', 'brown', 'red', 'green', 'purple', 'orange',
+ 'black', 'aqua', 'pink', 'bicolored']
+```
+- Possible colors for hair
+```
+['<UNK>', 'gray', 'blue', 'brown', 'red', 'blonde', 'green', 'purple', 'orange',
+ 'black', 'aqua', 'pink', 'white']
+```
 
 
 
