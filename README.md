@@ -2,7 +2,7 @@ Conditional GAN
 ====
 Generative Adversarial Networks for anime generation.
 
-![image](https://github.com/m516825/Caption-Generation/blob/master/img.png)
+![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/result.gif)
 training result in 25 epoch for the following tags
 - blue hair blue eyes
 - blue hair green eyes
