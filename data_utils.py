@@ -60,10 +60,6 @@ class Data(object):
 	def gen_info(self):
 		self.eyes_idx = np.array([idx for idx in set(self.a_tags_idx[:,0])])
 		self.hair_idx = np.array([idx for idx in set(self.a_tags_idx[:,1])])
-		eye = [self.vocab_processor._reverse_mapping[idx] for idx in self.eyes_idx]
-		hair = [self.vocab_processor._reverse_mapping[idx] for idx in self.hair_idx]
-		print(eye)
-		print(hair)
 		self.type = []
 		for a_tag in self.a_tags_idx:
 			if a_tag[0] == self.unk_id:
