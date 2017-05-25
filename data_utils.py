@@ -145,7 +145,7 @@ class Data(object):
 		return img, hot, a_tags, self.img_feat[widx], self.one_hot[widx]
 
 	def next_noise_batch(self, size, dim):
-		return np.random.uniform(-1.0, 1.0, [size, dim])#self.z_sampler.rvs([size, dim])
+		return self.z_sampler.rvs([size, dim]) #np.random.uniform(-1.0, 1.0, [size, dim])
 
 class VocabularyProcessor(object):
 	def __init__(self, max_document_length, vocabulary, unknown_limit=float('Inf'), drop=False):
