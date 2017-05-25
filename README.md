@@ -5,11 +5,14 @@ Conditional Generative Adversarial Networks for anime generation (AnimeGAN).
 ![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/result.gif) <br />
 Training results dump every 500 min-batch in 25 epoch(26000th min-batch) for the following tags
 - blue hair blue eyes
-- blue hair green eyes
+- gray hair green eyes
 - green hair red eyes
-- green hair pink eyes
-- blue hair yellow eyes
+- orange hair brown eyes
+- blonde hair gray eyes
 - pink hair aqua eyes
+<br />
+Sample train data 
+![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/result.gif) <br />
 
 ## Environment
 python3 <br />
