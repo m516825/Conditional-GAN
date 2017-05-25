@@ -1,6 +1,6 @@
 Conditional GAN
 ====
-Conditional Generative Adversarial Networks for anime generation (C-AnimeGAN).
+Conditional Generative Adversarial Networks for anime generation (AnimeGAN).
 
 ![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/result.gif) <br />
 Training results dump every 500 min-batch in 25 epoch(26000th min-batch) for the following tags
