@@ -21,6 +21,10 @@ python3 <br />
 tensorflow 1.0 <br />
 scipy <br />
 
+## Model structure
+
+![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/train.jpg) <br />
+
 ## Data
 [source link](https://drive.google.com/open?id=0BwJmB7alR-AvMHEtczZZN0EtdzQ) <br />
 [google drive link]()
