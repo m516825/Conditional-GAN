@@ -11,6 +11,7 @@ Training results dump every 500 min-batch in 25 epoch(26000th min-batch) for the
 - blonde hair gray eyes
 - pink hair aqua eyes
 <br />
+
 ## Sample training data 
 
 ![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/train.jpg) <br />
