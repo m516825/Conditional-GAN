@@ -12,7 +12,8 @@ Training results dump every 500 min-batch in 25 epoch(26000th min-batch) for the
 - pink hair aqua eyes
 <br />
 Sample train data 
-![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/result.gif) <br />
+
+![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/train.jpg) <br />
 
 ## Environment
 python3 <br />
