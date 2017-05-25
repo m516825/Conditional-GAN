@@ -23,7 +23,7 @@ scipy <br />
 
 ## Model structure
 
-![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/train.jpg) <br />
+![image](https://github.com/m516825/Conditional-GAN/blob/master/asset/model.png) <br />
 
 ## Data
 [source link](https://drive.google.com/open?id=0BwJmB7alR-AvMHEtczZZN0EtdzQ) <br />
